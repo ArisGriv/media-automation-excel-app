@@ -5,6 +5,8 @@ from io import BytesIO
 st.set_page_config(page_title="Excel Analyzer", layout="centered")
 st.title("📊 AI Excel Automation - Media Automation")
 
+st.caption("🔒 Τα αρχεία σας δεν αποθηκεύονται. Η εφαρμογή επεξεργάζεται τα δεδομένα μόνο προσωρινά.")
+
 uploaded_file = st.file_uploader("Ανεβάστε το Excel αρχείο με 3 φύλλα εργασίας", type=["xlsx"])
 
 if uploaded_file:
